@@ -24,6 +24,7 @@
 .env*
 *.env
 !.env.example
+.npmrc
 
 # IDE and Editor Configurations
 .vscode/

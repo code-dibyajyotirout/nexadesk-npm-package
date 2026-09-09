@@ -1,0 +1,32 @@
+# Source code and development files
+src/
+app/
+public/
+tests/
+scripts/
+
+# Build caches and intermediate artifacts
+.next/
+out/
+*.tsbuildinfo
+*.log
+
+# Git and GitHub
+.git/
+.github/
+
+# Development configurations
+tsconfig*.json
+eslint.config.mjs
+next.config.ts
+next-env.d.ts
+
+# Documentation files for repo only
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+SECURITY.md
+PULL_REQUEST_TEMPLATE.md
+
+# Environment and secrets
+.env*
+.npmrc
